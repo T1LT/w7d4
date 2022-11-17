@@ -1,0 +1,13 @@
+.section {
+    margin: 10px 0;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+
+.section-list {
+    display: flex;
+    justify-content: space-evenly; 
+    a:hover {
+        text-decoration: underline;
+    } 
+}
