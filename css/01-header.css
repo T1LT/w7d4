@@ -48,3 +48,32 @@ body {
 .header-list li:hover {
   background-color: black;
 }
+
+.header-list:hover .badge {
+  background-color: red;
+}
+
+.badge {
+  background-color: black;
+  border: 1px solid black;
+  padding: 1px 6px;
+  border-radius: 50%;
+}
+
+.nested-list {
+  color: black;
+  display: none;
+  position: absolute;
+  width: 600px;
+  left: -1px;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.notifications-parent:hover .nested-list {
+  display: block;
+}
+
+.nested-list li:hover {
+  background-color: rgb(215, 215, 215);
+}
